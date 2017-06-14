@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KotlinTestApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_button_oneteam">Одна команда</string>
+    <string name="title_button_twoteam">Две команды</string>
+</resources>

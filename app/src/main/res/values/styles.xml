@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textAppearance">@style/TextTheme</item>
+    </style>
+
+    <style name="TextTheme" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="ButtonTeamTheme">
+        <item name="android:layout_margin">@dimen/activity_horizontal_margin</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:textAppearance">@style/TextTheme</item>
+    </style>
+
+</resources>
